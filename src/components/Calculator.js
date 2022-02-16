@@ -33,16 +33,16 @@ const Calculator = () => {
   const result = () => {
 
     if(operator === "+") {
-      setNum1(parseInt(Num1) + parseInt(Num2) + "")
+      setNum1(parseFloat(Num1) + parseFloat(Num2) + "")
     } 
     if(operator === "-") {
-      setNum1(parseInt(Num1) - parseInt(Num2) + "")
+      setNum1(parseFloat(Num1) - parseFloat(Num2) + "")
     }
     if(operator === "x") {
-      setNum1(parseInt(Num1) * parseInt(Num2) + "")
+      setNum1(parseFloat(Num1) * parseFloat(Num2) + "")
     }
     if(operator === "/") {
-      setNum1(parseInt(Num1) / parseInt(Num2) + "")      
+      setNum1(parseFloat(Num1) / parseFloat(Num2) + "")      
     } 
     setNum2("")
     }
@@ -72,7 +72,7 @@ const Calculator = () => {
       <button onClick={() => screenValue("8")}> 8 </button>
       <button onClick={() => screenValue("9")}> 9 </button>
       <button onClick={() => screenValue("0")}> 0 </button>
-      {/* <button onClick={() => screenValue(",")}> , </button> */}
+      <button onClick={() => screenValue(".")}> . </button>
       <button onClick={() => operador("+")}> + </button>
       <button onClick={() => operador("-")}> - </button>
       <button onClick={() => operador("x")}> x </button>
