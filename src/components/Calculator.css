@@ -1,0 +1,47 @@
+.allItens{
+  display: grid;
+  align-items: center;
+
+}
+
+.screen{
+  background-color: #800f2f;
+  color: white;
+  justify-self:center;
+  margin: 0px;
+  text-align: end; 
+  width:350px; 
+  height: 40px;
+  border: black groove 1px;
+
+
+}
+
+.buttons{
+   justify-self:center;
+
+   
+}
+
+button{
+  background-color: #fcd5ce;
+  border: 1px;
+  border-color: black;
+  color: rgb(0, 0, 0);
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 20px;
+  border-style:groove;
+  width: 70px; 
+  height: 40px;;
+}
+
+.triple {
+  width:210px;
+  height:40px;
+}
+
+.double {
+  width:140px;
+  height:40px;
+}
